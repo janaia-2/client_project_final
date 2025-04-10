@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page Not Found</title>
+  <link rel="stylesheet" href="css/html5reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" width="200" alt="UMSI Logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="food_pantry.html">Food Pantry</a></li>
+        <li><a href="first_gen.html">First Gen</a></li>
+        <li><a href="msi_advising.html">MSI Advising</a></li>
+      </ul>
+    </nav>
+    <h1>Oops! Page Not Found</h1>
+  </header>
+
+  <main id="main" class="content-grid">
+    <section class="full-width">
+      <h2>404 Error</h2>
+      <p class="fp-cap">Sorry, the page you're looking for doesn't exist.</p>
+      <p class="fp-cap"><a href="index.html">Return to the homepage</a></p>
+      <figure>
+        <img src="images/confused face.jpeg" alt="Confused Wolverine" />
+        <figcaption class="fp-cap">Even the wolverines get lost sometimes!</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>UMSI Academic Advising |
+    <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">Visit Advising</a></p>
+    <p>Hours: Mon–Fri, 8am–5pm | Contact: advising@umich.edu | © <span id="year"></span> University of Michigan</p>
+  </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Success Portal</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+<a href = "#main"class="skip-link">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" width="200" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "food_pantry.html">Food Pantry</a></li>
+                <li><a href = "first_gen.html" class="active">First Gen</a></li>
+                <li><a href = "msi_advising.html">MSI Advising</a></li>
+            </ul>
+        </nav>
+        <h1>First Generation Students | Student Success Portal</h1>
+    </header>
+    <main id="main" class="content-grid">
+        <div class="full-width">
+        <h2>First-Generation Students</h2>
+        <p class="fp-cap">Did you know there are approximately 4,000 students at the University of Michigan who are among the first generation in their family to attend college?</p>
+        <p class="fp-cap">First-gen students may face unique challenges such as academic pressure, financial strain, and difficulty navigating university systems.</p>
+        </div>
+        <div class="first-c" style="margin-top: 4rem;">
+        <h3>How UM Supports You</h3>
+        <ul>
+            <li>Peer Mentorship and Networking</li>
+            <li>Health and Wellness Resources</li>
+            <li>Academic Success Workshops</li>
+            <li>Community Building Events</li>
+            <li>Academic Funding Resources</li>
+        </ul>
+        </div>
+        <div class="second-c">
+            <figure>
+                <img src="images/first_gen.jpg" alt="First Gen Community Event Panel">
+                <figcaption class="fp-cap">Community-building events hosted by First Gen</figcaption>
+            </figure>
+        </div>
+        <p>Learn more about resources for first-gen students by visiting the official <a href="https://firstgen.umich.edu/">UMSI First Gen Site </a></p>
+    </main>
+      <footer>
+        <p>First Gen |
+        <a href="https://firstgen.umich.edu/">UMSI First Gen</a></p>
+        <p>Hours: Mon–Fri, 8am–5pm | Contact: firstgeninfo@umich.edu | © <span id="year"></span> University of Michigan</p>
+      </footer>
+</body>
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</html>
